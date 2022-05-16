@@ -19,7 +19,6 @@ class LoginScreenActivity : AppCompatActivity() {
 
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
-    private lateinit var saveInfoCheckBox: CheckBox
     private lateinit var loginButton: Button
     private lateinit var registerButton: Button
     private lateinit var mAuth: FirebaseAuth
@@ -30,6 +29,10 @@ class LoginScreenActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
 
+        if(supportActionBar != null){
+            this.supportActionBar?.hide()
+        }
+
         initializeUI()
     }
 
@@ -38,7 +41,6 @@ class LoginScreenActivity : AppCompatActivity() {
         // INITIALIZING UI VARIABLES
         emailEditText = findViewById(R.id.emailEditText)
         passwordEditText = findViewById(R.id.passwordEditText)
-        saveInfoCheckBox = findViewById(R.id.saveInfoCheckBox)
         loginButton = findViewById(R.id.loginButton)
         registerButton = findViewById(R.id.registerButton)
 
