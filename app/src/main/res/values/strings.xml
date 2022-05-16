@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cash Game Tracker</string>
+    <string name="email_edittext_hint">Email</string>
+    <string name="password_edittext_hint">Password</string>
+    <string name="repassword_edittext_hint">Re-type Password</string>
+    <string name="login_button_hint">Login</string>
+    <string name="register_button_hint">Register</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22414540636",
+    "project_id": "cash-game-tracker",
+    "storage_bucket": "cash-game-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22414540636:android:d7ddb8288969d2cdd28b99",
+        "android_client_info": {
+          "package_name": "com.example.cashgametracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22414540636-ptlu5fih0mgbjjm2d39pti3j8vvc9ead.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKvA6PoReRlzxGarju_Bqvt4b4nk4VoiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22414540636-ptlu5fih0mgbjjm2d39pti3j8vvc9ead.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

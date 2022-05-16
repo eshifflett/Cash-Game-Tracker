@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterScreenActivity">
+
+    <EditText
+        android:id="@+id/emailRegisterEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
+        android:hint="@string/email_edittext_hint"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/passwordRegisterEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:hint="@string/password_edittext_hint"
+        app:layout_constraintLeft_toLeftOf="@id/emailRegisterEditText"
+        app:layout_constraintTop_toBottomOf="@id/emailRegisterEditText"/>
+
+    <EditText
+        android:id="@+id/repasswordRegisterEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        android:hint="@string/repassword_edittext_hint"
+        app:layout_constraintLeft_toLeftOf="@id/passwordRegisterEditText"
+        app:layout_constraintTop_toBottomOf="@id/passwordRegisterEditText"/>
+
+    <Button
+        android:id="@+id/registerRegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_button_hint"
+        android:onClick="onRegisterRegisterPress"
+        app:layout_constraintLeft_toLeftOf="@id/repasswordRegisterEditText"
+        app:layout_constraintTop_toBottomOf="@id/repasswordRegisterEditText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
