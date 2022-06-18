@@ -1,4 +1,4 @@
-package com.example.cashgametracker
+package com.example.cashgametracker.helpers
 
 class Validators {
     fun validEmail(email: String?) : Boolean {

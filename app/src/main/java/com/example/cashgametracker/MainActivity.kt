@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.cashgametracker.activities.NewSessionActivity
+import com.example.cashgametracker.authentication.LoginScreenActivity
 import com.google.firebase.auth.FirebaseAuth
 
 

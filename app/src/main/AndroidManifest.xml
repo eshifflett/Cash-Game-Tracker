@@ -14,13 +14,13 @@
         android:theme="@style/Theme.CashGameTracker"
         tools:targetApi="31">
         <activity
-            android:name=".NewSessionActivity"
+            android:name=".activities.NewSessionActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterScreenActivity"
+            android:name=".authentication.RegisterScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginScreenActivity"
+            android:name=".authentication.LoginScreenActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
