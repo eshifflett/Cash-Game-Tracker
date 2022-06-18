@@ -26,4 +26,11 @@ class Validators {
         val passwordRegex = Regex("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}\$")
         return passwordRegex.matches(password)
     }
+
+    fun validName(name: String?) : Boolean {
+        if (name.isNullOrEmpty()) {
+            return false
+        }
+        return name.isNotEmpty()
+    }
 }

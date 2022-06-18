@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         // GETTING REFERENCE TO FIREBASE AND CHECKING IF USER IS LOGGED IN
         mAuth = FirebaseAuth.getInstance()
 
+        // hides action bar
+        if(supportActionBar != null){
+            this.supportActionBar?.hide()
+        }
     }
 
     override fun onStart(){
