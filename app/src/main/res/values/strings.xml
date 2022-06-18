@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Cash Game Tracker</string>
-    <string name="email_edittext_hint">Email</string>
-    <string name="password_edittext_hint">Password</string>
-    <string name="repassword_edittext_hint">Re-type Password</string>
-    <string name="login_button_hint">Login</string>
+    <string name="email_edittext_hint">EMAIL</string>
+    <string name="firstname_edittext_hint">FIRST NAME</string>
+    <string name="lastname_edittext_hint">LAST NAME</string>
+    <string name="password_edittext_hint">PASSWORD</string>
+    <string name="repassword_edittext_hint">CONFIRM PASSWORD</string>
+    <string name="login_button_hint">Sign In</string>
     <string name="register_button_hint">Register</string>
+    <string name="click_here">Click here.</string>
 </resources>
